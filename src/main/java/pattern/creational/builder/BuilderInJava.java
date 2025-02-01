@@ -1,4 +1,4 @@
-package org.pattern.builder;
+package pattern.creational.builder;
 
 // Builders in Java
 class BuilderInJava {
