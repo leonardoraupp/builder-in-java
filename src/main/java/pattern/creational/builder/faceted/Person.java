@@ -1,4 +1,4 @@
-package pattern.creational.builder;
+package pattern.creational.builder.faceted;
 
 class Person {
     // address
