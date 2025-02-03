@@ -35,7 +35,7 @@ class ClassElement {
 
     @Override
     public String toString() {
-        return "CodeChunk{" +
+        return "Class{" +
                 "name='" + name + '\'' +
                 ", type='" + type + '\'' +
                 '}';
@@ -68,7 +68,8 @@ class CodeBuilder {
                 .append(lineSeparator);
         for (ClassElement e : classElement.getElements()) {
             sb
-                    .append(e.getType())
+                    .append("  public ")
+                   .append(e.getType())
                     .append(" ")
                     .append(e.getName())
                     .append(";")
