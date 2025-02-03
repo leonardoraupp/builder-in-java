@@ -45,7 +45,7 @@ class ClassElement {
 class CodeBuilder {
     private final String className;
     private ClassElement classElement = new ClassElement();
-    String lineSeparator = System.lineSeparator();
+    private String lineSeparator = System.lineSeparator();
 
     public CodeBuilder(String className) {
         this.className = className;
